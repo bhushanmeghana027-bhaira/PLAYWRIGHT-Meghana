@@ -19,8 +19,8 @@ test ("Xpath locators",async ({page}) => {
 
     const allProductNames:string[] = await Products.allTextContents();
     console.log("all the product names: " + allProductNames);
-    for(let profuctTitle of allProductNames){
-        console.log(profuctTitle);
+    for(let productTitle of allProductNames){
+        console.log(productTitle);
     }
 
 })
