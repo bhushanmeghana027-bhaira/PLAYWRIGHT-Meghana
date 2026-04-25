@@ -33,6 +33,7 @@ test("Xpath axes",async({page}) => {
     const precedsiblingcellcount:number = await preceedingsiblingCell.count();
     console.log("Number of preceding siblings: " + precedsiblingcellcount);
     await expect(preceedingsiblingCell).toHaveCount(precedsiblingcellcount);
+    
 
     
 })
