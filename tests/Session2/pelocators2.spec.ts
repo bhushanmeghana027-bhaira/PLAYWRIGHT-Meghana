@@ -17,6 +17,8 @@ test("validating dempoqa page",async({page})=>{
 
     // 5]getByTile
     await page.getByTitle("hobbies-checkbox-1").click();
+    // 6] get by test id is customizable u will go to configuration.propertis and make changes
+    
 
 })
 
