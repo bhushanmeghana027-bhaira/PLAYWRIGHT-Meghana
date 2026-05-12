@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
-
+// npx playwright codegen --output tests/codegentest1.spec.ts
+// write this in terminal then do all actons 
 test('test', async ({ page }) => {
   await page.goto('https://demoblaze.com/index.html');
   await expect(page.getByRole('link', { name: 'PRODUCT STORE' })).toBeVisible();

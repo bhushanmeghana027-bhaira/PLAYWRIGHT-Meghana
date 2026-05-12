@@ -1,5 +1,6 @@
 import { test, expect, devices } from '@playwright/test';
-
+// npx playwright codegen --output tests/codegentest2.spec.ts --device "Galaxy S24"
+// run this command 
 test.use({
   ...devices['Galaxy S24'],
 });
